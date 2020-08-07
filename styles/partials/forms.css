@@ -1,12 +1,9 @@
-
 .input-block label,
 .select-block label,
 .textarea-block label{
     font-size: 1.4rem;
     color: var(--color-text-complement);
 }
-
-
 
 .input-block input,
 .select-block select,
@@ -22,9 +19,10 @@
     padding: 0 1.6rem;
     font: 1.6rem archivo;
 }
+
 .textarea-block textarea{
     padding: 1.2rem;
-    height: 15rem;
+    height: 16rem;
     resize: vertical;
 
 }
@@ -33,6 +31,7 @@
 .textarea-block{
     position: relative;
 }
+
 .input-block:focus-within::after,
 .textarea-block:focus-within::after{/*elemento dinamico que so existe quando focado e refere ao elementos superior trabalha juntamente com o conteudo vazio vazio*/
     content: "";
@@ -45,3 +44,11 @@
     left:1.6rem;
     bottom: 0px;
 }
+
+
+
+
+
+
+
+

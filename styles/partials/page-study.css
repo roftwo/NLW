@@ -31,11 +31,6 @@
 #search-teachers button:hover{
     background-color: var(--color-secondary-dark);
 }
-.select-block label,
-.input-block label{
-    font-size: 1.4rem;
-    color: var(--color-text-complement);
-}
 /*cabeçalho finalizado*/
 #page-study main{
     margin: 3.2rem auto;
