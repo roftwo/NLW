@@ -73,14 +73,14 @@
 .total-connections img{
     margin-left: 0.8rem;
 }
-@media (max-width: 700px){
+@media (max-width: 900px){
     :root{
         font-size: 40%;
     }
 }
 
 
-@media (min-width: 1100px){
+@media (min-width: 901px){
     #page-landing #container{
         max-width: 1100px;
         display: grid;
